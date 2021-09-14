@@ -254,6 +254,11 @@ img {
   border-radius: 4px;
 }
 
+.button-kreuz:hover {
+  fill: #2196f3;
+  cursor: pointer;
+}
+
 .button-kreuz {
   position: absolute;
   width: 30px;
@@ -855,6 +860,13 @@ img {
 }
 
 .signup-input {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
   display: block;
   margin-top: 20px;
   width: 358px;
